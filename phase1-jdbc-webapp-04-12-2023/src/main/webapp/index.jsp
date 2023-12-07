@@ -22,7 +22,8 @@
 		<a href="create-db" > Create Database </a> | 
 		<a href="drop-db" > Drop Database </a> |  <br><br>
 		
-		<a href="multi-product-tx" > Multi Product Insert Transaction </a> | 
+		<a href="multi-product-tx" > Multi Product Insert Transaction </a> | <br> <br>
+		<a href ="retrieve-details">Retrieve By ID</a>
 		
 	</div>
 </body>
