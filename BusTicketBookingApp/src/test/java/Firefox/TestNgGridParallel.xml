@@ -1,0 +1,16 @@
+
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="parallelredbus" verbose="1" parallel="true" thread-count="6">
+  <test name="Girddemo-standAlone" >
+    <classes>
+       <class name="Chrome.HomePageTest" />
+       <class name="Chrome.TicketChecking" />
+       <class name="Chrome.cabRental" />
+       <class name="Firefox.HomePageTest" />
+       <class name="Firefox.TicketCheckTest" />
+       <class name="Firefox.cabRental" />
+    </classes>
+  </test>
+</suite>
