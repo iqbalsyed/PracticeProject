@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="16" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-20T16:51:45 IST" name="eComWebapp TestSuite" finished-at="2023-12-20T16:52:55 IST" duration-ms="69634">
+    <groups>
+      <group name="Regression Test">
+        <method signature="AttributeTest.r1()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest@5fe94a96]" name="r1" class="com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest"/>
+        <method signature="AttributeTest.r2()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest@5fe94a96]" name="r2" class="com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest"/>
+        <method signature="AttributeTest.r3()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest@5fe94a96]" name="r3" class="com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest"/>
+      </group> <!-- Regression Test -->
+    </groups>
+    <test started-at="2023-12-20T16:51:45 IST" name="Amazon Test" finished-at="2023-12-20T16:52:54 IST" duration-ms="69300">
+      <class name="com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest@67d48005]" started-at="2023-12-20T16:51:45 IST" name="setUp" finished-at="2023-12-20T16:51:54 IST" duration-ms="8497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAmazonHomePageSourceUrl()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest@67d48005]" started-at="2023-12-20T16:51:54 IST" name="testAmazonHomePageSourceUrl" description="Test Amazon Home Page Source Url" finished-at="2023-12-20T16:51:54 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonHomePageSourceUrl -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest@67d48005]" started-at="2023-12-20T16:51:54 IST" name="cleanUp" finished-at="2023-12-20T16:51:55 IST" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest@67d48005]" started-at="2023-12-20T16:51:55 IST" name="setUp" finished-at="2023-12-20T16:52:01 IST" duration-ms="5805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAmazonHomePageTitle()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest@67d48005]" started-at="2023-12-20T16:52:01 IST" name="testAmazonHomePageTitle" description="Test Amazon Home Page Title Match" finished-at="2023-12-20T16:52:01 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonHomePageTitle -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest@67d48005]" started-at="2023-12-20T16:52:01 IST" name="cleanUp" finished-at="2023-12-20T16:52:02 IST" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest@67d48005]" started-at="2023-12-20T16:52:02 IST" name="setUp" finished-at="2023-12-20T16:52:07 IST" duration-ms="5177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAmazonHomePageTitle2()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest@67d48005]" started-at="2023-12-20T16:52:07 IST" name="testAmazonHomePageTitle2" description="Test Amazon Home Page Title Invalid Match" finished-at="2023-12-20T16:52:07 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAmazonHomePageTitle2 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest@67d48005]" started-at="2023-12-20T16:52:07 IST" name="cleanUp" finished-at="2023-12-20T16:52:08 IST" duration-ms="1457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest -->
+      <class name="com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath@9597028]" started-at="2023-12-20T16:52:27 IST" name="setUp" finished-at="2023-12-20T16:52:31 IST" duration-ms="4510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="xpathLinkTest1()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath@9597028]" started-at="2023-12-20T16:52:31 IST" name="xpathLinkTest1" description="Test Amazon Mobile Phones Title Match" finished-at="2023-12-20T16:52:35 IST" duration-ms="3887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xpathLinkTest1 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath@9597028]" started-at="2023-12-20T16:52:35 IST" name="cleanUp" finished-at="2023-12-20T16:52:36 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath@9597028]" started-at="2023-12-20T16:52:36 IST" name="setUp" finished-at="2023-12-20T16:52:41 IST" duration-ms="5089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="xpathLinkTest2()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath@9597028]" started-at="2023-12-20T16:52:41 IST" name="xpathLinkTest2" description="Test Today deals Title Match" finished-at="2023-12-20T16:52:42 IST" duration-ms="325" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[1]/header/div/div[4]/div[2]/div[2]/div/a[5]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4837900f-a860-4ea6-bc1f-ef90b01f3dc8, findElement {using=xpath, value=/html/body/div[1]/header/div/div[4]/div[2]/div[2]/div/a[5]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:debuggerAddress: localhost:16554, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 16320, moz:profile: C:\Users\Predator\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:16554/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4837900f-a860-4ea6-bc1f-ef90b01f3dc8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/header/div/div[4]/div[2]/div[2]/div/a[5]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4837900f-a860-4ea6-bc1f-ef90b01f3dc8, findElement {using=xpath, value=/html/body/div[1]/header/div/div[4]/div[2]/div[2]/div/a[5]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:debuggerAddress: localhost:16554, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 16320, moz:profile: C:\Users\Predator\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:16554/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4837900f-a860-4ea6-bc1f-ef90b01f3dc8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+at com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath.xpathLinkTest2(AmazonLinVerificationByXpath.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xpathLinkTest2 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath@9597028]" started-at="2023-12-20T16:52:42 IST" name="cleanUp" finished-at="2023-12-20T16:52:43 IST" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath -->
+      <class name="com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss@49139829]" started-at="2023-12-20T16:52:08 IST" name="setUp" finished-at="2023-12-20T16:52:13 IST" duration-ms="4641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tdLinkTest1()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss@49139829]" started-at="2023-12-20T16:52:13 IST" name="tdLinkTest1" description="Test Amazon Mobile Phones Title Match" finished-at="2023-12-20T16:52:16 IST" duration-ms="3191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tdLinkTest1 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss@49139829]" started-at="2023-12-20T16:52:16 IST" name="cleanUp" finished-at="2023-12-20T16:52:18 IST" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss@49139829]" started-at="2023-12-20T16:52:18 IST" name="setUp" finished-at="2023-12-20T16:52:23 IST" duration-ms="5310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tdLinkTest2()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss@49139829]" started-at="2023-12-20T16:52:23 IST" name="tdLinkTest2" description="Test Amazon Mobile Phones Title Match" finished-at="2023-12-20T16:52:26 IST" duration-ms="2439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tdLinkTest2 -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss@49139829]" started-at="2023-12-20T16:52:26 IST" name="cleanUp" finished-at="2023-12-20T16:52:27 IST" duration-ms="1378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss -->
+      <class name="com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest@6069db50]" started-at="2023-12-20T16:52:43 IST" name="beforeClass" finished-at="2023-12-20T16:52:48 IST" duration-ms="5117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testSearch1()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest@6069db50]" started-at="2023-12-20T16:52:48 IST" name="testSearch1" description="Search Iphone 15 pro max" finished-at="2023-12-20T16:52:51 IST" duration-ms="2887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch1 -->
+        <test-method signature="testSearch2()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest@6069db50]" started-at="2023-12-20T16:52:51 IST" name="testSearch2" description="Search Apple Mac book" finished-at="2023-12-20T16:52:53 IST" duration-ms="2273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch2 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest@6069db50]" started-at="2023-12-20T16:52:53 IST" name="afterClass" finished-at="2023-12-20T16:52:54 IST" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest -->
+    </test> <!-- Amazon Test -->
+    <test started-at="2023-12-20T16:52:54 IST" name="Group Test" finished-at="2023-12-20T16:52:55 IST" duration-ms="238">
+      <class name="com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest">
+        <test-method signature="r1()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest@5fe94a96]" started-at="2023-12-20T16:52:54 IST" name="r1" finished-at="2023-12-20T16:52:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- r1 -->
+        <test-method signature="r2()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest@5fe94a96]" started-at="2023-12-20T16:52:54 IST" name="r2" finished-at="2023-12-20T16:52:55 IST" duration-ms="216" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest.r2() didn't finish within the time-out 200]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest.r2() didn't finish within the time-out 200
+at java.base@17.0.1/java.lang.Thread.sleep(Native Method)
+at app//com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest.r2(AttributeTest.java:39)
+at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base@17.0.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base@17.0.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base@17.0.1/java.lang.reflect.Method.invoke(Method.java:568)
+at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base@17.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- r2 -->
+        <test-method signature="r3()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest@5fe94a96]" started-at="2023-12-20T16:52:55 IST" name="r3" depends-on-groups="Regression Test" finished-at="2023-12-20T16:52:55 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AttributeTest.r3()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest@5fe94a96] depends on not successfully finished methods in group "Regression Test"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AttributeTest.r3()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest@5fe94a96] depends on not successfully finished methods in group "Regression Test"
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- r3 -->
+        <test-method signature="testOne()[pri:2, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest@5fe94a96]" started-at="2023-12-20T16:52:55 IST" name="testOne" description="The sample Test One" finished-at="2023-12-20T16:52:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method signature="testTwo()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest@5fe94a96]" started-at="2023-12-20T16:52:55 IST" name="testTwo" description="The sample Test Two" finished-at="2023-12-20T16:52:55 IST" depends-on-methods="com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest.testOne, com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest.testThree" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest -->
+    </test> <!-- Group Test -->
+    <test started-at="2023-12-20T16:52:55 IST" name="Other Test" finished-at="2023-12-20T16:52:55 IST" duration-ms="33">
+      <class name="com.simplilearn.phase2.Phase2_selenium_tetsng.AssertionTest">
+        <test-method signature="hardAssertTest()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AssertionTest@54d9d12d]" started-at="2023-12-20T16:52:55 IST" name="hardAssertTest" description="Hard Assert method Test" finished-at="2023-12-20T16:52:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hardAssertTest -->
+        <test-method signature="softAssertTest()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AssertionTest@54d9d12d]" started-at="2023-12-20T16:52:55 IST" name="softAssertTest" description="Soft Assert method Test" finished-at="2023-12-20T16:52:55 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- softAssertTest -->
+        <test-method signature="testAsserts()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AssertionTest@54d9d12d]" started-at="2023-12-20T16:52:55 IST" name="testAsserts" finished-at="2023-12-20T16:52:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAsserts -->
+      </class> <!-- com.simplilearn.phase2.Phase2_selenium_tetsng.AssertionTest -->
+      <class name="com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion">
+        <test-method is-config="true" signature="setupbeforetestsuit()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion@3c41ed1d]" started-at="2023-12-20T16:51:45 IST" name="setupbeforetestsuit" finished-at="2023-12-20T16:51:45 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforetestsuit -->
+        <test-method is-config="true" signature="setupbeforeClass()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion@3c41ed1d]" started-at="2023-12-20T16:52:55 IST" name="setupbeforeClass" finished-at="2023-12-20T16:52:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforeClass -->
+        <test-method signature="testOne()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion@3c41ed1d]" started-at="2023-12-20T16:52:55 IST" name="testOne" finished-at="2023-12-20T16:52:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method is-config="true" signature="setupbeforeTest()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion@3c41ed1d]" started-at="2023-12-20T16:52:55 IST" name="setupbeforeTest" finished-at="2023-12-20T16:52:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforeTest -->
+        <test-method is-config="true" signature="setupAfterTest()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion@3c41ed1d]" started-at="2023-12-20T16:52:55 IST" name="setupAfterTest" finished-at="2023-12-20T16:52:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterTest -->
+        <test-method signature="testTwo()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion@3c41ed1d]" started-at="2023-12-20T16:52:55 IST" name="testTwo" finished-at="2023-12-20T16:52:55 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method is-config="true" signature="setupbeforeTest()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion@3c41ed1d]" started-at="2023-12-20T16:52:55 IST" name="setupbeforeTest" finished-at="2023-12-20T16:52:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupbeforeTest -->
+        <test-method is-config="true" signature="setupAfterTest()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion@3c41ed1d]" started-at="2023-12-20T16:52:55 IST" name="setupAfterTest" finished-at="2023-12-20T16:52:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAfterTest -->
+        <test-method is-config="true" signature="setupafterClass()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion@3c41ed1d]" started-at="2023-12-20T16:52:55 IST" name="setupafterClass" finished-at="2023-12-20T16:52:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupafterClass -->
+        <test-method is-config="true" signature="setupaftertestsuite()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion@3c41ed1d]" started-at="2023-12-20T16:52:55 IST" name="setupaftertestsuite" finished-at="2023-12-20T16:52:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupaftertestsuite -->
+      </class> <!-- com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion -->
+    </test> <!-- Other Test -->
+  </suite> <!-- eComWebapp TestSuite -->
+</testng-results>

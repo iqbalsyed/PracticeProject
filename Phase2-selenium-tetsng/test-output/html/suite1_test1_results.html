@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Amazon Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Amazon Test</h1>
+<p>
+  Test duration: 2.023s
+</p>
+
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
+              <tr class="group">
+        <td colspan="3">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  setUp
+      </td>
+  <td class="duration">
+    0.412s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. <br/>
+Host info: host: &apos;NIK&apos;, ip: &apos;192.168.1.4&apos;<br/>
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}}]}]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:625)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:168)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:157)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:152)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:133)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:128)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:113)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)<br />
+              com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath.setUp(AmazonLinVerificationByXpath.java:29)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)<br />
+              org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)<br />
+              org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)<br />
+              org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+              org.testng.TestRunner.run(TestRunner.java:621)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+              org.testng.TestNG.run(TestNG.java:1082)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">java.lang.NoSuchMethodError: &apos;void com.google.common.base.Throwables.throwIfUnchecked(java.lang.Throwable)&apos;</a><br />
+        <div class="stackTrace" id="exception-1">
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:192)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:168)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:157)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:152)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:133)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:128)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:113)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)<br />
+                      com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath.setUp(AmazonLinVerificationByXpath.java:29)<br />
+                      java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+                      java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+                      java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)<br />
+                      org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)<br />
+                      org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)<br />
+                      org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
+                      org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+                      org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+                      org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+                      org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+                      java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+                      org.testng.TestRunner.run(TestRunner.java:621)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+                      org.testng.TestNG.run(TestNG.java:1082)<br />
+                      org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+          <tr class="group">
+        <td colspan="3">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  setUp
+      </td>
+  <td class="duration">
+    0.397s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. <br/>
+Host info: host: &apos;NIK&apos;, ip: &apos;192.168.1.4&apos;<br/>
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}}]}]</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:625)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:168)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:157)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:152)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:133)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:128)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:113)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)<br />
+              com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss.setUp(AmazonLinkVerificationByCss.java:32)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)<br />
+              org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)<br />
+              org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)<br />
+              org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+              org.testng.TestRunner.run(TestRunner.java:621)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+              org.testng.TestNG.run(TestNG.java:1082)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse">java.lang.NoSuchMethodError: &apos;void com.google.common.base.Throwables.throwIfUnchecked(java.lang.Throwable)&apos;</a><br />
+        <div class="stackTrace" id="exception-3">
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:192)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:168)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:157)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:152)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:133)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:128)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:113)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)<br />
+                      com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss.setUp(AmazonLinkVerificationByCss.java:32)<br />
+                      java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+                      java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+                      java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)<br />
+                      org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)<br />
+                      org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)<br />
+                      org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
+                      org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+                      org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+                      org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+                      org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+                      java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+                      org.testng.TestRunner.run(TestRunner.java:621)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+                      org.testng.TestNG.run(TestNG.java:1082)<br />
+                      org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+          <tr class="group">
+        <td colspan="3">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  beforeClass
+      </td>
+  <td class="duration">
+    0.379s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. <br/>
+Host info: host: &apos;NIK&apos;, ip: &apos;192.168.1.4&apos;<br/>
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}}]}]</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:625)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:168)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:157)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:152)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:133)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:128)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:113)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)<br />
+              com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest.beforeClass(AmazonSearchTest.java:26)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)<br />
+              org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)<br />
+              org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+              org.testng.TestRunner.run(TestRunner.java:621)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+              org.testng.TestNG.run(TestNG.java:1082)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-5', 'block')" title="Click to expand/collapse">java.lang.NoSuchMethodError: &apos;void com.google.common.base.Throwables.throwIfUnchecked(java.lang.Throwable)&apos;</a><br />
+        <div class="stackTrace" id="exception-5">
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:192)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:168)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:157)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:152)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:133)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:128)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:113)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)<br />
+                      com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest.beforeClass(AmazonSearchTest.java:26)<br />
+                      java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+                      java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+                      java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)<br />
+                      org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)<br />
+                      org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)<br />
+                      org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)<br />
+                      org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)<br />
+                      java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+                      org.testng.TestRunner.run(TestRunner.java:621)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+                      org.testng.TestNG.run(TestNG.java:1082)<br />
+                      org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+          <tr class="group">
+        <td colspan="3">com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  setUp
+      </td>
+  <td class="duration">
+    0.834s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-6', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. <br/>
+Host info: host: &apos;NIK&apos;, ip: &apos;192.168.1.4&apos;<br/>
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;<br/>
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {binary: C:\Program Files\Mozilla Fi...}}]}]</b></a><br />
+    <div class="stackTrace" id="exception-6">
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:625)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:168)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:157)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:152)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:133)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:128)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:113)<br />
+              org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)<br />
+              com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest.setUp(amazonHomepageTest.java:25)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+              java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+              org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)<br />
+              org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)<br />
+              org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)<br />
+              org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)<br />
+              org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
+              org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+              org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+              org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+              org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+              org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+              java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+              org.testng.TestRunner.run(TestRunner.java:621)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+              org.testng.TestNG.run(TestNG.java:1082)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-7', 'block')" title="Click to expand/collapse">java.lang.NoSuchMethodError: &apos;void com.google.common.base.Throwables.throwIfUnchecked(java.lang.Throwable)&apos;</a><br />
+        <div class="stackTrace" id="exception-7">
+                      org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:192)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:241)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:168)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:157)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:152)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:133)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:128)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:113)<br />
+                      org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:103)<br />
+                      com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest.setUp(amazonHomepageTest.java:25)<br />
+                      java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)<br />
+                      java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+                      java.base/java.lang.reflect.Method.invoke(Method.java:568)<br />
+                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)<br />
+                      org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)<br />
+                      org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)<br />
+                      org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)<br />
+                      org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)<br />
+                      org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)<br />
+                      org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)<br />
+                      org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)<br />
+                      org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)<br />
+                      org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)<br />
+                      java.base/java.util.ArrayList.forEach(ArrayList.java:1511)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:848)<br />
+                      org.testng.TestRunner.run(TestRunner.java:621)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:443)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:336)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1200)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1114)<br />
+                      org.testng.TestNG.run(TestNG.java:1082)<br />
+                      org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+    
+          <tr><td colspan="3">&nbsp;</td></tr>
+      <tr><td colspan="3" class="header skippedConfig">Skipped Configuration</td></tr>
+                    <tr>
+          <td colspan="3" class="group">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  cleanUp
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  cleanUp
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  setUp
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+              <tr>
+          <td colspan="3" class="group">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  cleanUp
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  cleanUp
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  setUp
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+              <tr>
+          <td colspan="3" class="group">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  afterClass
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+              <tr>
+          <td colspan="3" class="group">com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  cleanUp
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  cleanUp
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  cleanUp
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  setUp
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  setUp
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+            </table>
+
+
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Mobile Phones Title Match">xpathLinkTest1</span>
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Today deals Title Match">xpathLinkTest2</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Mobile Phones Title Match">tdLinkTest1</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Mobile Phones Title Match">tdLinkTest2</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Search Iphone 15 pro max">testSearch1</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Search Apple Mac book">testSearch2</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Home Page Source Url">testAmazonHomePageSourceUrl</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Home Page Title Match">testAmazonHomePageTitle</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  <span class="description" title="Test Amazon Home Page Title Invalid Match">testAmazonHomePageTitle2</span>
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+      </table>
+
+  
+</body>
+</html>

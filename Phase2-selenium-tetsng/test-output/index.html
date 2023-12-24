@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-eComWebapp_TestSuite" class="navigator-link">
+              <span class="suite-name border-failed">eComWebapp TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-eComWebapp_TestSuite" class="navigator-link ">
+                    <span>C:\Users\Predator\Phase2-selenium-tetsng\TestNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-eComWebapp_TestSuite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-eComWebapp_TestSuite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-eComWebapp_TestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-eComWebapp_TestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-eComWebapp_TestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-eComWebapp_TestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 2 failed,  1 skipped,  16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-eComWebapp_TestSuite" class="hide-methods failed suite-eComWebapp_TestSuite"> (hide)</a> <!-- hide-methods failed suite-eComWebapp_TestSuite -->
+                      <a href="#" panel-name="suite-eComWebapp_TestSuite" class="show-methods failed suite-eComWebapp_TestSuite"> (show)</a> <!-- show-methods failed suite-eComWebapp_TestSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-eComWebapp_TestSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest" class="method navigator-link" hash-for-method="r2">r2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath" class="method navigator-link" hash-for-method="xpathLinkTest2">xpathLinkTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-eComWebapp_TestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-eComWebapp_TestSuite" class="hide-methods skipped suite-eComWebapp_TestSuite"> (hide)</a> <!-- hide-methods skipped suite-eComWebapp_TestSuite -->
+                      <a href="#" panel-name="suite-eComWebapp_TestSuite" class="show-methods skipped suite-eComWebapp_TestSuite"> (show)</a> <!-- show-methods skipped suite-eComWebapp_TestSuite -->
+                    </span>
+                    <div class="method-list-content skipped suite-eComWebapp_TestSuite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest" class="method navigator-link" hash-for-method="r3">r3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-eComWebapp_TestSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-eComWebapp_TestSuite" class="hide-methods passed suite-eComWebapp_TestSuite"> (hide)</a> <!-- hide-methods passed suite-eComWebapp_TestSuite -->
+                      <a href="#" panel-name="suite-eComWebapp_TestSuite" class="show-methods passed suite-eComWebapp_TestSuite"> (show)</a> <!-- show-methods passed suite-eComWebapp_TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-eComWebapp_TestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.AssertionTest" class="method navigator-link" hash-for-method="hardAssertTest">hardAssertTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest" class="method navigator-link" hash-for-method="r1">r1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.AssertionTest" class="method navigator-link" hash-for-method="softAssertTest">softAssertTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss" class="method navigator-link" hash-for-method="tdLinkTest1">tdLinkTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss" class="method navigator-link" hash-for-method="tdLinkTest2">tdLinkTest2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest" class="method navigator-link" hash-for-method="testAmazonHomePageSourceUrl">testAmazonHomePageSourceUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest" class="method navigator-link" hash-for-method="testAmazonHomePageTitle">testAmazonHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest" class="method navigator-link" hash-for-method="testAmazonHomePageTitle2">testAmazonHomePageTitle2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.AssertionTest" class="method navigator-link" hash-for-method="testAsserts">testAsserts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest" class="method navigator-link" hash-for-method="testOne">testOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion" class="method navigator-link" hash-for-method="testOne">testOne</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearch1">testSearch1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest" class="method navigator-link" hash-for-method="testSearch2">testSearch2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest" class="method navigator-link" hash-for-method="testTwo">testTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion" class="method navigator-link" hash-for-method="testTwo">testTwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eComWebapp_TestSuite" title="com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath" class="method navigator-link" hash-for-method="xpathLinkTest1">xpathLinkTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-eComWebapp_TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-eComWebapp_TestSuite" class="panel eComWebapp_TestSuite">
+          <div class="suite-eComWebapp_TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xpathLinkTest2">
+                  </a> <!-- xpathLinkTest2 -->
+                  <span class="method-name">xpathLinkTest2</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/header/div/div[4]/div[2]/div[2]/div/a[5]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [4837900f-a860-4ea6-bc1f-ef90b01f3dc8, findElement {using=xpath, value=/html/body/div[1]/header/div/div[4]/div[2]/div[2]/div/a[5]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 92.0, moz:accessibilityChecks: false, moz:buildID: 20210903235534, moz:debuggerAddress: localhost:16554, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:processID: 16320, moz:profile: C:\Users\Predator\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platformName: windows, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:16554/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4837900f-a860-4ea6-bc1f-ef90b01f3dc8
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+	at com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath.xpathLinkTest2(AmazonLinVerificationByXpath.java:59)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Test Today deals Title Match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eComWebapp_TestSuite-class-failed -->
+          <div class="suite-eComWebapp_TestSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="r2">
+                  </a> <!-- r2 -->
+                  <span class="method-name">r2</span>
+                  <div class="stack-trace">org.testng.internal.thread.ThreadTimeoutException: Method com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest.r2() didn&apos;t finish within the time-out 200
+	at java.base@17.0.1/java.lang.Thread.sleep(Native Method)
+	at app//com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest.r2(AttributeTest.java:39)
+	at java.base@17.0.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base@17.0.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base@17.0.1/java.lang.Thread.run(Thread.java:833)
+... Removed 8 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eComWebapp_TestSuite-class-failed -->
+          <div class="suite-eComWebapp_TestSuite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="r3">
+                  </a> <!-- r3 -->
+                  <span class="method-name">r3</span>
+                  <div class="stack-trace">java.lang.Throwable: Method AttributeTest.r3()[pri:0, instance:com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest@5fe94a96] depends on not successfully finished methods in group &quot;Regression Test&quot;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eComWebapp_TestSuite-class-skipped -->
+          <div class="suite-eComWebapp_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="xpathLinkTest1">
+                  </a> <!-- xpathLinkTest1 -->
+                  <span class="method-name">xpathLinkTest1</span>
+                  <em>
+(Test Amazon Mobile Phones Title Match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eComWebapp_TestSuite-class-passed -->
+          <div class="suite-eComWebapp_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tdLinkTest1">
+                  </a> <!-- tdLinkTest1 -->
+                  <span class="method-name">tdLinkTest1</span>
+                  <em>
+(Test Amazon Mobile Phones Title Match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tdLinkTest2">
+                  </a> <!-- tdLinkTest2 -->
+                  <span class="method-name">tdLinkTest2</span>
+                  <em>
+(Test Amazon Mobile Phones Title Match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eComWebapp_TestSuite-class-passed -->
+          <div class="suite-eComWebapp_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAmazonHomePageSourceUrl">
+                  </a> <!-- testAmazonHomePageSourceUrl -->
+                  <span class="method-name">testAmazonHomePageSourceUrl</span>
+                  <em>
+(Test Amazon Home Page Source Url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAmazonHomePageTitle">
+                  </a> <!-- testAmazonHomePageTitle -->
+                  <span class="method-name">testAmazonHomePageTitle</span>
+                  <em>
+(Test Amazon Home Page Title Match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAmazonHomePageTitle2">
+                  </a> <!-- testAmazonHomePageTitle2 -->
+                  <span class="method-name">testAmazonHomePageTitle2</span>
+                  <em>
+(Test Amazon Home Page Title Invalid Match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eComWebapp_TestSuite-class-passed -->
+          <div class="suite-eComWebapp_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne">
+                  </a> <!-- testOne -->
+                  <span class="method-name">testOne</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwo">
+                  </a> <!-- testTwo -->
+                  <span class="method-name">testTwo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eComWebapp_TestSuite-class-passed -->
+          <div class="suite-eComWebapp_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.AssertionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hardAssertTest">
+                  </a> <!-- hardAssertTest -->
+                  <span class="method-name">hardAssertTest</span>
+                  <em>
+(Hard Assert method Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="softAssertTest">
+                  </a> <!-- softAssertTest -->
+                  <span class="method-name">softAssertTest</span>
+                  <em>
+(Soft Assert method Test)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAsserts">
+                  </a> <!-- testAsserts -->
+                  <span class="method-name">testAsserts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eComWebapp_TestSuite-class-passed -->
+          <div class="suite-eComWebapp_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="r1">
+                  </a> <!-- r1 -->
+                  <span class="method-name">r1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOne">
+                  </a> <!-- testOne -->
+                  <span class="method-name">testOne</span>
+                  <em>
+(The sample Test One)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTwo">
+                  </a> <!-- testTwo -->
+                  <span class="method-name">testTwo</span>
+                  <em>
+(The sample Test Two)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eComWebapp_TestSuite-class-passed -->
+          <div class="suite-eComWebapp_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch1">
+                  </a> <!-- testSearch1 -->
+                  <span class="method-name">testSearch1</span>
+                  <em>
+(Search Iphone 15 pro max)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch2">
+                  </a> <!-- testSearch2 -->
+                  <span class="method-name">testSearch2</span>
+                  <em>
+(Search Apple Mac book)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eComWebapp_TestSuite-class-passed -->
+        </div> <!-- panel eComWebapp_TestSuite -->
+        <div panel-name="test-xml-eComWebapp_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Predator\Phase2-selenium-tetsng\TestNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;eComWebapp TestSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Amazon Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Amazon Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Group Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Group Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Other Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion&quot;/&gt;
+      &lt;class name=&quot;com.simplilearn.phase2.Phase2_selenium_tetsng.AssertionTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Other Test --&gt;
+&lt;/suite&gt; &lt;!-- eComWebapp TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-eComWebapp_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for eComWebapp TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Amazon Test (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Group Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Other Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-eComWebapp_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for eComWebapp TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression Test</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">r1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">r2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">r3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-eComWebapp_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for eComWebapp TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_eComWebapp_TestSuite');
+function tableData_eComWebapp_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'xpathLinkTest1')
+data.setCell(0, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath')
+data.setCell(0, 3, 3887);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tdLinkTest1')
+data.setCell(1, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss')
+data.setCell(1, 3, 3191);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testSearch1')
+data.setCell(2, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest')
+data.setCell(2, 3, 2887);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tdLinkTest2')
+data.setCell(3, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss')
+data.setCell(3, 3, 2439);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSearch2')
+data.setCell(4, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest')
+data.setCell(4, 3, 2273);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'xpathLinkTest2')
+data.setCell(5, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath')
+data.setCell(5, 3, 325);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'r2')
+data.setCell(6, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest')
+data.setCell(6, 3, 216);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testAmazonHomePageSourceUrl')
+data.setCell(7, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest')
+data.setCell(7, 3, 34);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testAmazonHomePageTitle2')
+data.setCell(8, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest')
+data.setCell(8, 3, 18);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'softAssertTest')
+data.setCell(9, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.AssertionTest')
+data.setCell(9, 3, 16);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testAmazonHomePageTitle')
+data.setCell(10, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest')
+data.setCell(10, 3, 9);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testOne')
+data.setCell(11, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion')
+data.setCell(11, 3, 2);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testTwo')
+data.setCell(12, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion')
+data.setCell(12, 3, 2);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'r1')
+data.setCell(13, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testOne')
+data.setCell(14, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testAsserts')
+data.setCell(15, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.AssertionTest')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'hardAssertTest')
+data.setCell(16, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.AssertionTest')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testTwo')
+data.setCell(17, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'r3')
+data.setCell(18, 2, 'com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest')
+data.setCell(18, 3, 0);
+window.suiteTableData['eComWebapp_TestSuite']= { tableData: data, tableDiv: 'times-div-eComWebapp_TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <div id="times-div-eComWebapp_TestSuite">
+              </div> <!-- times-div-eComWebapp_TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-eComWebapp_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for eComWebapp TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-eComWebapp_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testThree</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testThree</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-eComWebapp_TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setupbeforetestsuit</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.amazonHomepageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAmazonHomePageSourceUrl</span>
+                <span class="method-start">8555 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">8596 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9926 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAmazonHomePageTitle</span>
+                <span class="method-start">15731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">15743 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16823 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAmazonHomePageTitle2</span>
+                <span class="method-start">22001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">22023 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinkVerificationByCss</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23483 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tdLinkTest1</span>
+                <span class="method-start">28124 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">31317 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">32751 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tdLinkTest2</span>
+                <span class="method-start">38061 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">40502 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonLinVerificationByXpath</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">41881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">xpathLinkTest1</span>
+                <span class="method-start">46391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">50279 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">51375 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">xpathLinkTest2</span>
+                <span class="method-start">56464 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUp</span>
+                <span class="method-start">56796 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.AmazonSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">58096 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSearch1</span>
+                <span class="method-start">63214 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearch2</span>
+                <span class="method-start">66102 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">68377 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.AttributeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">r1</span>
+                <span class="method-start">69376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">r2</span>
+                <span class="method-start">69382 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testOne</span>
+                <span class="method-start">69605 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTwo</span>
+                <span class="method-start">69608 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setupbeforeClass</span>
+                <span class="method-start">69617 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testOne</span>
+                <span class="method-start">69618 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupbeforeTest</span>
+                <span class="method-start">69618 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">setupAfterTest</span>
+                <span class="method-start">69621 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testTwo</span>
+                <span class="method-start">69622 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setupbeforeTest</span>
+                <span class="method-start">69622 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">setupAfterTest</span>
+                <span class="method-start">69625 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">setupafterClass</span>
+                <span class="method-start">69625 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.AssertionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">hardAssertTest</span>
+                <span class="method-start">69627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">softAssertTest</span>
+                <span class="method-start">69630 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testAsserts</span>
+                <span class="method-start">69647 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.simplilearn.phase2.Phase2_selenium_tetsng.TestNgStandardAnnotaion</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">setupaftertestsuite</span>
+                <span class="method-start">69653 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
