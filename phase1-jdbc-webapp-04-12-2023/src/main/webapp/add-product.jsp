@@ -17,6 +17,7 @@
 			Product Name : <input type="text" name="product_name" id="name"> <br><br>
 			Product Description : <input type="text" name="product_desc" id="description"> <br><br>
 			Product Price : <input type="text" name="product_price" id="price"> <br><br>
+		
 			
 			<input type="submit"  value="Add Product">
 		</fieldset>

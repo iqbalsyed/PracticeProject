@@ -45,6 +45,8 @@ public class AddProduct extends HttpServlet {
 		String productName = request.getParameter("product_name");
 		String productDec = request.getParameter("product_desc");
 		String productPrice = request.getParameter("product_price");
+	
+		
 		DatabaseConnection db = null;
 		
 		try {
