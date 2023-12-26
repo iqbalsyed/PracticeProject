@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-26T21:23:26 IST" name="Default suite" finished-at="2023-12-26T21:23:26 IST" duration-ms="138">
+    <groups>
+    </groups>
+    <test started-at="2023-12-26T21:23:26 IST" name="Default test" finished-at="2023-12-26T21:23:26 IST" duration-ms="138">
+      <class name="com.pp.E_learning_Webapp.CourseTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pp.E_learning_Webapp.CourseTest@61df66b6]" started-at="2023-12-26T21:23:26 IST" name="setup" finished-at="2023-12-26T21:23:26 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test2()[pri:0, instance:com.pp.E_learning_Webapp.CourseTest@61df66b6]" started-at="2023-12-26T21:23:26 IST" name="test2" description="test checking course is not null" finished-at="2023-12-26T21:23:26 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.pp.E_learning_Webapp.CourseTest@61df66b6]" started-at="2023-12-26T21:23:26 IST" name="cleanup" finished-at="2023-12-26T21:23:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pp.E_learning_Webapp.CourseTest@61df66b6]" started-at="2023-12-26T21:23:26 IST" name="setup" finished-at="2023-12-26T21:23:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test3()[pri:0, instance:com.pp.E_learning_Webapp.CourseTest@61df66b6]" started-at="2023-12-26T21:23:26 IST" name="test3" description="test checking the course list" finished-at="2023-12-26T21:23:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:com.pp.E_learning_Webapp.CourseTest@61df66b6]" started-at="2023-12-26T21:23:26 IST" name="cleanup" finished-at="2023-12-26T21:23:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.pp.E_learning_Webapp.CourseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
