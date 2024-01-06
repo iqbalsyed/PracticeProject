@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Parallel  TestSuite" parallel ="classes" thread-count = "2">
+	<listeners>
+		<listner class-name = "org.uncommons.reportng.HTMLReporter"></listner>
+		<listner class-name = "org.uncommons.reportng.JUnitXMLReporter"></listner>
+	</listeners>
+
+	<test name="Parallel Test">
+		<parameter name = "name" value="manisha"/>
+		<parameter name = "mobile" value="9931348475"/>
+		<parameter name = "pin" value="711101"/>
+		<classes>
+			<class name="com.simplilearn.testng.starhealth001"></class>
+			<class name="com.simplilearn.testng.starhealth002"></class>
+		</classes>
+	</test>
+</suite>

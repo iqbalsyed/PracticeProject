@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [eComWebapp TestSuite]">
+  <test thread-count="5" name="Amazon Test(failed)">
+    <parameter name="pin" value="711101"/>
+    <parameter name="name" value="manisha"/>
+    <parameter name="mobile" value="9931348475"/>
+    <classes>
+      <class name="com.simplilearn.testng.StarHealth">
+        <methods>
+          <include name="afterClass"/>
+          <include name="test2"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.simplilearn.testng.StarHealth -->
+    </classes>
+  </test> <!-- Amazon Test(failed) -->
+</suite> <!-- Failed suite [eComWebapp TestSuite] -->
