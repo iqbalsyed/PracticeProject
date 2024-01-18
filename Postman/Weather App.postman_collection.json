@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "3110097b-901f-4e83-91a1-22814fa1618d",
+		"name": "Weather App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13361365",
+		"_collection_link": "https://speeding-satellite-378946.postman.co/workspace/Automation-Testing~4256c75c-955b-421c-b139-eb9692b02661/collection/13361365-3110097b-901f-4e83-91a1-22814fa1618d?action=share&source=collection_link&creator=13361365"
+	},
+	"item": [
+		{
+			"name": "Get Weather Report",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test('Status code is 200', function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"})\r",
+							"\r",
+							"pm.test('coord should exist', function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.coord).to.not.undefined;\r",
+							"    pm.expect(jsonData.coord.lon).to.not.undefined;\r",
+							"    pm.expect(jsonData.coord.lat).to.not.undefined;\r",
+							"})\r",
+							"\r",
+							"pm.test('Weather should exist', function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.weather).to.not.undefined;\r",
+							"    pm.expect(jsonData.weather[0].id).to.not.undefined;\r",
+							"    pm.expect(jsonData.weather[0].main).to.not.undefined;\r",
+							"    pm.expect(jsonData.weather[0].description).to.not.undefined;\r",
+							"})\r",
+							"\r",
+							"pm.test('Base should exist', function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.base).to.not.undefined;\r",
+							"    pm.expect(jsonData.base).to.eqls('stations');\r",
+							"})\r",
+							"\r",
+							"pm.test(\"Main should exist\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.main).to.not.undefined;\r",
+							"    pm.expect(jsonData.main.temp).to.not.undefined;\r",
+							"    pm.expect(jsonData.main.pressure).to.not.undefined;\r",
+							"    pm.expect(jsonData.main.humidity).to.not.undefined;\r",
+							"    pm.expect(jsonData.main.temp_min).to.not.undefined;\r",
+							"    pm.expect(jsonData.main.temp_max).to.not.undefined;\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.collectionVariables.get(\"{{Location}}\");\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{W_URL}}/data/2.5/weather?q={{Location}},uk&appid=b6907d289e10d714a6e88b30761fae22",
+					"host": [
+						"{{W_URL}}"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "{{Location}},uk"
+						},
+						{
+							"key": "appid",
+							"value": "b6907d289e10d714a6e88b30761fae22"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "W_URL",
+			"value": "https://samples.openweathermap.org",
+			"type": "string"
+		},
+		{
+			"key": "Location",
+			"value": "London",
+			"type": "string"
+		}
+	]
+}

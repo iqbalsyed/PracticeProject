@@ -1,0 +1,216 @@
+{
+	"info": {
+		"_postman_id": "2a43b6f2-5d6f-43d5-88f8-dc9731bcd982",
+		"name": "Automated API Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13361365",
+		"_collection_link": "https://speeding-satellite-378946.postman.co/workspace/Automation-Testing~4256c75c-955b-421c-b139-eb9692b02661/collection/13361365-2a43b6f2-5d6f-43d5-88f8-dc9731bcd982?action=share&source=collection_link&creator=13361365"
+	},
+	"item": [
+		{
+			"name": "Read",
+			"item": [
+				{
+					"name": "Get All Request Users",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {\r",
+									"    pm.response.to.have.status(200);\r",
+									"});\r",
+									"pm.test(\"Your test name\", function () {\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.page).to.eql(1);\r",
+									"    pm.expect(jsonData.per_page).to.eql(6);\r",
+									"pm.test(\"Response time is more than 200ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.above(200);\r",
+									"});\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/users?page={{page}}&size={{size}}&sort={{sort}}",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"users"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "{{page}}"
+								},
+								{
+									"key": "size",
+									"value": "{{size}}"
+								},
+								{
+									"key": "sort",
+									"value": "{{sort}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Validate collection variables\", function () {",
+							"    var userId = pm.collectionVariables.get(\"userId\");",
+							"    var username = pm.collectionVariables.get(\"username\");",
+							"    console.log(username, userId);",
+							"});"
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Status code name has string\", function () {",
+							"   var userId = pm.collectionVariables.get(\"userId\");",
+							"   var username = pm.collectionVariables.get(\"username\");",
+							"   var size = pm.collectionVariables.get(\"SIZE\");",
+							"});"
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "Post",
+			"item": [
+				{
+					"name": "Create User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {\r",
+									"    pm.response.to.have.status(201);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Get Job Title\", function (){\r",
+									"    var jobtitle = pm.variables.get(\"Random_Job_Title\");\r",
+									"    var jsonData = pm.response.json();\r",
+									"    pm.expect(jsonData.job).to.not.null;\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Morpheus Smith\",\r\n    \"job\": \"leader\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/users",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"Validate Collections variables\", function() {",
+					"    var host_url = pm.collectionVariables.get(\"URL\");",
+					"    var size = pm.collectionVariables.get(\"size\");",
+					"    var sort = pm.collectionVariables.get(\"sort\");",
+					"    var page = pm.collectionVariables.get(\"page\");",
+					"    console.log(host_url,size,sort,page);",
+					"});"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL",
+			"value": "https://reqres.in/api",
+			"type": "string"
+		},
+		{
+			"key": "SIZE",
+			"value": "10",
+			"type": "string"
+		},
+		{
+			"key": "sort",
+			"value": "acs",
+			"type": "string"
+		},
+		{
+			"key": "page",
+			"value": "1",
+			"type": "string"
+		},
+		{
+			"key": "userId",
+			"value": "2",
+			"type": "string"
+		},
+		{
+			"key": "username",
+			"value": "morris",
+			"type": "string"
+		}
+	]
+}
