@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RestAssured Test">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="REST APIs">
+		<classes>
+			<class name="com.simplilearn.resttesting.GetRequestTest"></class>
+			<class name="com.simplilearn.resttesting.Post"></class>
+			<class name="com.simplilearn.resttesting.Put"></class>
+			<class name="com.simplilearn.resttesting.Patch"></class>
+			<class name="com.simplilearn.resttesting.Delete"></class>
+		</classes>
+	</test>
+</suite>
